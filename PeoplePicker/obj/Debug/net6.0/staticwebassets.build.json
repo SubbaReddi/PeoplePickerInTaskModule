@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "kt2/xNTDTfDl53R7YXvPopBKEaLYDVeTZkbTQCJoPLU=",
+  "Source": "PeoplePicker",
+  "BasePath": "_content/PeoplePicker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PeoplePicker\\wwwroot",
+      "Source": "PeoplePicker",
+      "ContentRoot": "D:\\V5\\Microsoft-Teams-Samples-main\\Microsoft-Teams-Samples-main\\samples\\bot-people-picker-adaptive-card\\csharp\\PeoplePicker\\wwwroot\\",
+      "BasePath": "_content/PeoplePicker",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\V5\\Microsoft-Teams-Samples-main\\Microsoft-Teams-Samples-main\\samples\\bot-people-picker-adaptive-card\\csharp\\PeoplePicker\\wwwroot\\default.htm",
+      "SourceId": "PeoplePicker",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\V5\\Microsoft-Teams-Samples-main\\Microsoft-Teams-Samples-main\\samples\\bot-people-picker-adaptive-card\\csharp\\PeoplePicker\\wwwroot\\",
+      "BasePath": "_content/PeoplePicker",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}

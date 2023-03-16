@@ -1,0 +1,62 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.12",
+  "version": "1.0.0",
+  "id": "f0189b52-348a-4c65-a804-df54e59a10f1",
+  "packageName": "com.microsoft.teams.typeaheadsearchcard",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.microsoft.com/privacy",
+    "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+  },
+  "name": {
+    "short": "People picker card",
+    "full": "Adaptive card with people picker."
+  },
+  "description": {
+    "short": "Adaptive card with people picker",
+    "full": "This sample shows the feature of people picker on Adaptive Cards."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#60A18E",
+  "bots": [
+    {
+      "botId": "f0189b52-348a-4c65-a804-df54e59a10f1",
+      "needsChannelSelector": false,
+      "scopes": [
+        "personal",
+        "team",
+        "groupchat"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "peoplepickercard",
+              "description": "To get people picker card"
+            }
+          ]
+        }
+      ],
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [ "identity", "messageTeamMembers" ],
+  "validDomains": [
+    "*.ngrok.io",
+    "subbapr2e4.azurewebsites.net",
+    "subbatestdb.blob.core.windows.net",
+    "*.darwinbox.in",
+    "*.darwinbox.com",
+    "*.darwinbox.io",
+    "*.vtiger.com",
+    "github.com"
+  ]
+}
