@@ -14,7 +14,7 @@ urlFragment: officedev-microsoft-teams-samples-bot-people-picker-adaptive-card-c
 ---
 # People picker control in Adaptive Cards
 
-This sample shows the feature of people picker on Adaptive Cards.
+This sample shows the feature of people picker on Adaptive Cards. The same adaptive card will be shown in Task module.
 
 ## Interaction with app
 
